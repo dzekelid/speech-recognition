@@ -15,8 +15,8 @@ tags:
 - Speech Recognition
 - Machine Learning
 - Google APIs
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/speech-recognition/master/_listings/google-speech/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -29,7 +29,7 @@ apis:
   tags: Speech Recognition
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/speech-recognition/master/_listings/google-speech/v1beta1-speech-syncrecognize-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/speech-recognition/master/_listings/google-speech/v1beta1-speech-asyncrecognize-post.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/speech/docs/reference/libraries
