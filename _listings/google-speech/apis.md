@@ -78,6 +78,24 @@ x-common:
   url: https://cloud.google.com/speech/docs/samples
 - type: x-website
   url: https://cloud.google.com/speech/
+- type: x-code
+  url: https://cloud.google.com/speech/docs/reference/libraries
+- type: x-concepts
+  url: https://cloud.google.com/speech/docs/best-practices
+- type: x-documentation
+  url: https://cloud.google.com/speech/docs/
+- type: x-getting-started
+  url: https://cloud.google.com/speech/docs/getting-started
+- type: x-guides
+  url: https://cloud.google.com/speech/docs/common/auth
+- type: x-pricing
+  url: https://cloud.google.com/speech/pricing
+- type: x-rate-limits
+  url: https://cloud.google.com/speech/limits
+- type: x-samples
+  url: https://cloud.google.com/speech/docs/samples
+- type: x-website
+  url: https://cloud.google.com/speech/
 include: []
 maintainers:
 - FN: Kin Lane
