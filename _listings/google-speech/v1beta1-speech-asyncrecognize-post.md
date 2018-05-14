@@ -1,8 +1,14 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Cloud Speech
-  description: Google Cloud Speech API.
+  title: Google Cloud Speech API Perform Asynchronous Speech Recognition
+  description: |-
+    Performs asynchronous speech recognition: receive results via the
+    [google.longrunning.Operations]
+    (/speech/reference/rest/v1beta1/operations#Operation)
+    interface. Returns either an
+    `Operation.error` or an `Operation.response` which contains
+    an `AsyncRecognizeResponse` message.
   contact:
     name: Google
     url: https://google.com
