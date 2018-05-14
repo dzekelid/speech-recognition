@@ -30,21 +30,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/speech-recognition/master/_listings/google-speech/v1beta1-speech-syncrecognize-post.md
-- name: Google Cloud Speech API Perform Asynchronous Speech Recognition
+- name: Google Cloud Speech API Perform Synchronous Speech Recognition
   description: |-
-    Performs asynchronous speech recognition: receive results via the
-    [google.longrunning.Operations]
-    (/speech/reference/rest/v1beta1/operations#Operation)
-    interface. Returns either an
-    `Operation.error` or an `Operation.response` which contains
-    an `AsyncRecognizeResponse` message.
+    Performs synchronous speech recognition: receive results after all audio
+    has been sent and processed.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/speech-api-lead_2x.png
   humanURL: https://cloud.google.com/speech/
   baseURL: http:://speech.googleapis.com//
   tags: Speech Recognition
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/speech-recognition/master/_listings/google-speech/v1beta1-speech-asyncrecognize-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/speech-recognition/master/_listings/google-speech/v1beta1-speech-syncrecognize-post.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/speech/docs/reference/libraries
