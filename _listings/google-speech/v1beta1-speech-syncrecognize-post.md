@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Cloud Speech
-  description: Google Cloud Speech API.
+  title: Google Cloud Speech API Perform Synchronous Speech Recognition
+  description: |-
+    Performs synchronous speech recognition: receive results after all audio
+    has been sent and processed.
   contact:
     name: Google
     url: https://google.com
